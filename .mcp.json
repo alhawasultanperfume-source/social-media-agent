@@ -3,6 +3,17 @@
     "playwright": {
       "command": "npx",
       "args": ["-y", "@playwright/mcp@0.0.86", "--headless", "--isolated"]
+    },
+    "meta": {
+      "command": "npx",
+      "args": ["-y", "@oliverames/meta-mcp-server@3.0.1"],
+      "env": {
+        "META_ACCESS_TOKEN": "${META_ACCESS_TOKEN:-}"
+      }
+    },
+    "video-analyzer": {
+      "command": "npx",
+      "args": ["-y", "mcp-video-analyzer@0.12.0"]
     }
   }
 }
