@@ -43,3 +43,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Playwright MCP output (snapshots, screenshots)
+.playwright-mcp/
